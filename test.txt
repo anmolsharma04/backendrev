@@ -1,0 +1,5 @@
+mongoose:-
+
+Schema - Defines the structure
+  Schema - Model(made through schema)
+    using model - we do CRUD operations 
