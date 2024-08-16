@@ -5,7 +5,7 @@ const {connectMongo} = require('./connection.js')
 const mongoose = require('mongoose')
 
 //connection
-mongoose.connect('mongodb://127.0.0.1:27017/testdata')
+mongoose.connect('yoururl/testdata')
 .then(()=>console.log("mongodb connected"))
 .catch(err=>console.log("mongo error",err))
 
